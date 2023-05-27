@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lakshmi Shravya Ramaraju Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#about">1. About Me</a></li>
+        <li><a href="#Education and work">2. Experience</a></li>
+        <li><a href="#projects">3. Projects</a></li>
+        <li><a href="#contact">4. Contact</a></li>
+        <li><a href="images/CV.pdf" download class="btn">Resume</a></li>
+    </ul>
+</nav>
+<!------------------------ Header ----------------->
+<div id="header">
+    <div class="container">
+        <div class="header-text">
+            <h3>Hi, my name is </h3>
+            <h1><span>Lakshmi Shravya.</span></h1>
+            <h2>I build data-driven solutions for the digital world.</h2>
+            <p>As a master's student pursuing Data Science and an AI enthusiast,<br>
+                I am passionate about unraveling the power of data and machine learning <br>to harness transformative insights. </p>
+        </div>
+    </div>
+</div>
+</div>
+<!------------------------ About me ----------------->
+<div id="about">
+    <div class = 'container'>
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profileppic.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">1. About me</h1>
+                <p>Hey there! I'm Lakshmi Shravya Ramaraju, a Masters student currently pursuing an MSc in Data Science
+                    at King's College London. <br><br>
+                    I've previously worked on various AI projects and gained valuable experience
+                    in developing data-driven solutions. My true passion lies in utilizing data and machine learning to
+                    solve real-world problems. My goal is to leverage my expertise in data science and AI to create innovative
+                    solutions that can make a significant difference.<br><br>
+                    Python is my primary programming language, and I am highly proficient in it. I also have experience
+                    working with R, SQL, and Matlab. In addition to programming languages, I have hands-on expertise in
+                    various technologies such as big-data tools, Deep Learning models, data mining techniques, and data analysis tools like Tableau.
+                    <br><br>
+                You can read more about me on my <a href="https://www.linkedin.com/in/lakshmi-shravya-ramaraju-28b838222/" class="custom_link">LinkdIn</a>
+                or check out some of the cool projects I have completed on <a href="https://github.com/lakshmi-shravya/lakshmi-shravya" class="custom_link">GitHub.</a> </p>
+                <br><br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick=opentab('education')>Education</p>
+                    <p class="tab-links" onclick=opentab('experience')>Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Msc Data Science</span><br>King's College London</li>
+                        <li><span>Bsc Computer Science with Artificial Intelligence</span><br>University Of Nottingham</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Engineer Intern at ATOS </span><br>June 2021- September 2021</li>
+                        <li><span>Team Lead Software Engineering Project </span><br>September 2020 - May 2021 </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br>
+
+<!------------------------ Portfolio ----------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">2. Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ensem.png">
+                <div class="layer">
+                    <h3>Ensemble Classification model</h3>
+                    <p>An ensemble method approach for classifying images of digits </p>
+                    <a href="Projects/MNIST.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chat.png">
+                <div class="layer">
+                    <h3>Chatbot</h3>
+                    <p>An interactive chatbot that does small talk, gives movie recommendations and assists with ticket booking</p>
+                    <a href="Projects/Chatbot.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/anakysis.png">
+                <div class="layer">
+                    <h3>Data Analysis projects</h3>
+                    <p>A few examples of the data analysis projects completed using tableau and R,</p>
+                    <a href="Projects/DataAnalysisProjects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="work-list">
+            <div class="work">
+                <img src="images/facerec.png">
+                <div class="layer">
+                    <h3>Face Recognition project</h3>
+                    <p>A Facial recognition model that only trains on one image.</p>
+                    <a href="Projects/FaceRec.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/running.png">
+                <div class="layer">
+                    <h3>RunIT</h3>
+                    <p>An android app that tracks and manages running activities.</p>
+                    <a href="Projects/RunningApp.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/travel.png">
+                <div class="layer">
+                    <h3>Socially Distanced based Sight Seeing Tour Problem</h3>
+                    <p>10 places, 1 route - finding the shortest route through all the places visiting each one only once</p>
+                    <a href="Projects/SDSSTP.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br>
+<!------------------------ Contact ----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">3. Get In Touch</h1>
+                <p>Feel free to reach out to me with your questions or ideas for collaboration .</p>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:rl.shravya@gmail.com" class="custom_link">rl.shravya@gmail.com</a></p>
+            </div>
+                <div class="social-icons">
+                    <a href="https://github.com/lakshmi-shravya/lakshmi-shravya"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lakshmi-shravya-ramaraju-28b838222/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+</body>
+</html>

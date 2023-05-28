@@ -4,9 +4,10 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-html{
+html,body{
     scroll-behavior: smooth !important;
 }
+
 body{
     background: #080808;
     color: white;
@@ -22,13 +23,21 @@ body{
 
 #header{
     width: 100%;
-    height: 100vh;
     background-color: #080808;
     background-size: cover;
     background-position: center;
+    padding-top: 20px;
 }
 .container{
     padding: 10px 10%;
+}
+
+.exp-container{
+    padding: 10px 10%;
+    margin-right: auto;margin-left: auto;  width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
 }
 
 nav{
@@ -47,13 +56,13 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 25px 10px;
 }
 nav ul li a{
 text-decoration: none;
     font-family: Consolas;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 0;
     position: relative;
 }
@@ -75,19 +84,18 @@ nav ul li a.btn:after{
     background-color: black;
 }
 .header-text{
-    margin-top: 20px;
-    font-size: 30px;
+    font-size: 10px;
 }
 .header-text h1{
-    font-size: 80px;
+    font-size: 60px;
 
 }
 .header-text h2{
-    font-size: 60px;
+    font-size: 50px;
     color: #ababab;
 }
 .header-text p,h3{
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Open Sans";
     color: #d7d3d3;
 }
@@ -114,8 +122,7 @@ nav ul li a.btn:after{
 /*-----------------About Section-----------------*/
 #about{
     width: 100%;
-    margin-top: 0;
-    padding-top: 0;
+    padding-top: 200px;
     color: #ababab;
 }
 .row{
@@ -125,17 +132,17 @@ nav ul li a.btn:after{
 }
 .about-col-1{
     flex-basis: 35%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .about-col-1 img{
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
 }
 .about-col-2{
     flex-basis: 60%;
 }
 .about-col-2 h1{
-    font-size: 50px;
+    font-size: 30px;
     font-family: Consolas;
     color: white;
     margin-bottom: 20px;
@@ -143,20 +150,22 @@ nav ul li a.btn:after{
 .about-col-2 p{
     margin-top: 50px;
     margin-bottom: 1px;
-    font-size: 23px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     font-family: "Open Sans";
     word-spacing: 1px;
     color: #ababab;
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 20px;
     color: white;
     font-weight: 600;
 }
 .tab-titles{
-    margin: 0px 0 40px;
+    margin-bottom: 60px;
+    margin-left: 352px;
     display: flex;
+
 }
 .tab-titles p{
     font-family: Consolas;
@@ -164,7 +173,7 @@ nav ul li a.btn:after{
     color: white;
 }
 .tab-links{
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 50px;
     font-weight: 500;
     cursor: pointer;
@@ -187,12 +196,13 @@ nav ul li a.btn:after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     font-family: "Open Sans";
 }
 .tab-contents ul li span{
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 20;
     color: #a15ce8;
 }
 .tab-contents{
@@ -220,11 +230,13 @@ nav ul li a.btn:after{
     font-family: "Open Sans";
     color: white;
 }
+
 .work p{
-    font-size: 18px;
+    font-size: 15px;
 }
 .work img{
-    width: 100%;
+    width: 130%;
+    align-content: center;
     border-radius: 10px;
     display: block;
     transition:transform 0.5s;
@@ -272,7 +284,6 @@ nav ul li a.btn:after{
 }
 .btn{
     display: block;
-    margin:50px auto;
     width:fit-content;
     border:3px solid #8338EC;
     padding: 14px 50px;
@@ -288,7 +299,7 @@ nav ul li a.btn:after{
 }
 .sub-title{
     font-family: Consolas;
-    font-size: 50px;
+    font-size: 30px;
 }
 /*-----------------Contact Section-----------------*/
 .contact-left{
@@ -301,13 +312,13 @@ margin-right: auto;margin-left: auto;  width: 100%;
     margin-top: 30px;
     color: #d7d3d3;
     font-family: "Open Sans";
-    font-size: 30px;
+    font-size: 18px;
     align-content: center;
 }
 .contact-left p i{
     color: white;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .social-icons{
     position: fixed;
@@ -393,5 +404,6 @@ text-decoration: none;
         width: 100%;
     }
 }
+
 
 
